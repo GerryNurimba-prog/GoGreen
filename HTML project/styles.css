@@ -1,0 +1,189 @@
+html, body {
+    background-color: #ffffff;
+    overflow-x: hidden!important;
+    margin: 0px !important;
+    padding: 0px !important;
+    
+}
+
+
+
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    right:0;
+    left:0;
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: rgb(5, 155, 255);
+    box-shadow: 0 19px 38px rgba(5, 68, 24, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.nav h4{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.nav .links .mainlink{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav .links a{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* LANDING CSS*/
+
+.Landing{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+
+}
+
+.LandingText h1{
+    font-size:  6vw;
+    margin: 0 !important;
+
+}
+
+.LandingText h3{
+    margin: 6px !important;
+    font-size:20px;
+    opacity: 0.4;
+    line-height: 30px;
+
+}
+
+.LandingText .button {
+    width: 100px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color:  #2ac749;
+    border-radius: 45px;
+    text-align: center;
+
+}
+
+.LandingText .button a{
+    font-size:1.2vw;
+    color: #ffffff;
+}ß
+
+.landingImage img {
+    width: 40vw;
+}
+
+/*ABOUT Page CSS*/
+
+.about{
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 40px;
+    height: inherit;
+}
+
+.aboutText h1{
+    position: relative;
+  
+}
+
+.aboutList{
+    width: 50%;
+
+}
+
+.aboutText img{
+    width: 15vw;
+    position: absolute;
+    right: 40px;
+}
+
+ol{
+    list-style: none;
+    color: #10ba2c;
+   
+
+}
+
+ol li {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid  #ebebeb;
+
+}
+
+li p{
+    font-size: 30px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.7
+}
+
+li span{    
+    position: absolute;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* Banner */
+
+.Banner{
+    height: 300px;
+    background-color:rgb(67, 139, 216);
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+.BannerText h1{
+    align-items: top;
+    font-size:2.5vw;
+    color:#000;
+    font-weight: 800;
+
+}
+
+.BannerText img{
+    width:15vw;
+    margin-right: 20px;
+}
+
+.BannerImg img{
+    width: 20vw;
+}
